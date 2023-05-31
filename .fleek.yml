@@ -1,6 +1,6 @@
 aliases:
-    fleeks: cd ~/.local/share/fleek
     du: dust
+    fleeks: cd ~/.local/share/fleek
 bling: high
 ejected: false
 flakedir: .local/share/fleek
@@ -24,6 +24,7 @@ packages:
     - mprocs
     - stow
     - du-dust
+    - gallery-dl
 paths:
     - $HOME/bin
     - $HOME/.local/bin

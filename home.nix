@@ -30,6 +30,7 @@
     pkgs.mprocs
     pkgs.stow
     pkgs.du-dust
+    pkgs.gallery-dl
     # Fleek Bling
     pkgs.git
     pkgs.htop
