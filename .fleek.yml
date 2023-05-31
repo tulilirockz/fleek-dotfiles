@@ -32,6 +32,6 @@ unfree: true
 users:
     - email: tulilirockz.pub+git@gmail.com
       name: Tulili
-      ssh_private_key_file: ~/.ssh/id_ed25519
-      ssh_public_key_file: ~/.ssh/id_ed25519.pub
+      ssh_private_key_file: ~/.ssh/git
+      ssh_public_key_file: ~/.ssh/git.pub
       username: tulili
