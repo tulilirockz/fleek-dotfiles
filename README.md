@@ -19,4 +19,6 @@ $ apply-$(hostname)
 ```
 
 Your actual aliases are listed below:
+    du = "dust";
+
     fleeks = "cd ~/.local/share/fleek";
