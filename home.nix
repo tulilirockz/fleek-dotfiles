@@ -24,6 +24,12 @@
     pkgs.bat
     pkgs.devbox
     pkgs.gh
+    pkgs.lm_sensors
+    pkgs.syncthing
+    pkgs.zellij
+    pkgs.mprocs
+    pkgs.stow
+    pkgs.du-dust
     # Fleek Bling
     pkgs.git
     pkgs.htop

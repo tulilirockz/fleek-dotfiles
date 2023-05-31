@@ -17,6 +17,12 @@ packages:
     - bat
     - devbox
     - gh
+    - lm_sensors
+    - syncthing
+    - zellij
+    - mprocs
+    - stow
+    - du-dust
 paths:
     - $HOME/bin
     - $HOME/.local/bin
