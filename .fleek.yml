@@ -25,6 +25,7 @@ packages:
     - stow
     - du-dust
     - gallery-dl
+    - shellcheck
 paths:
     - $HOME/bin
     - $HOME/.local/bin

@@ -31,6 +31,7 @@
     pkgs.stow
     pkgs.du-dust
     pkgs.gallery-dl
+    pkgs.shellcheck
     # Fleek Bling
     pkgs.git
     pkgs.htop
