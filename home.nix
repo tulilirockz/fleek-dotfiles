@@ -32,6 +32,7 @@
     pkgs.du-dust
     pkgs.gallery-dl
     pkgs.shellcheck
+    pkgs.rclone
     # Fleek Bling
     pkgs.git
     pkgs.htop

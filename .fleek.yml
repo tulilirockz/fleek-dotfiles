@@ -26,6 +26,7 @@ packages:
     - du-dust
     - gallery-dl
     - shellcheck
+    - rclone
 paths:
     - $HOME/bin
     - $HOME/.local/bin
