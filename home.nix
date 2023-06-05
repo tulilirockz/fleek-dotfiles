@@ -34,6 +34,7 @@
     pkgs.shellcheck
     pkgs.rclone
     pkgs.act
+    pkgs.cosign
     # Fleek Bling
     pkgs.git
     pkgs.htop

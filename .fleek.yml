@@ -28,6 +28,7 @@ packages:
     - shellcheck
     - rclone
     - act
+    - cosign
 paths:
     - $HOME/bin
     - $HOME/.local/bin
