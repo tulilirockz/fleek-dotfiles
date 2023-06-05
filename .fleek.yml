@@ -27,6 +27,7 @@ packages:
     - gallery-dl
     - shellcheck
     - rclone
+    - act
 paths:
     - $HOME/bin
     - $HOME/.local/bin

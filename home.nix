@@ -33,6 +33,7 @@
     pkgs.gallery-dl
     pkgs.shellcheck
     pkgs.rclone
+    pkgs.act
     # Fleek Bling
     pkgs.git
     pkgs.htop
