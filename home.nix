@@ -35,6 +35,8 @@
     pkgs.rclone
     pkgs.act
     pkgs.cosign
+    pkgs.flutter-unwrapped
+    pkgs.flutterPackages.stable
     # Fleek Bling
     pkgs.git
     pkgs.htop

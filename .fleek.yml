@@ -29,6 +29,8 @@ packages:
     - rclone
     - act
     - cosign
+    - flutter-unwrapped
+    - flutterPackages.stable
 paths:
     - $HOME/bin
     - $HOME/.local/bin
