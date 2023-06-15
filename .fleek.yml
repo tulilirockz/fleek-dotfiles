@@ -1,5 +1,6 @@
 aliases:
     du: dust
+    dev: 'eval "$(devbox global shellenv)"'
     fleeks: cd ~/.local/share/fleek
 bling: high
 ejected: false
