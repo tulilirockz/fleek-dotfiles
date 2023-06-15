@@ -19,8 +19,6 @@ $ apply-$(hostname)
 ```
 
 Your actual aliases are listed below:
-    dev = "eval "$(devbox global shellenv)"";
-
     du = "dust";
 
     fleeks = "cd ~/.local/share/fleek";

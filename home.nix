@@ -19,12 +19,11 @@
   # programs are installed and configuration applied to dotfiles
   home.packages = [
     # user selected packages
-    pkgs.yadm
     pkgs.exa
     pkgs.bat
+    pkgs.lazygit
     pkgs.devbox
     pkgs.gh
-    pkgs.lm_sensors
     pkgs.syncthing
     pkgs.zellij
     pkgs.mprocs
@@ -35,23 +34,11 @@
     pkgs.rclone
     pkgs.act
     pkgs.cosign
-    pkgs.flutter-unwrapped
-    pkgs.flutterPackages.stable
     # Fleek Bling
     pkgs.git
     pkgs.htop
     pkgs.github-cli
     pkgs.glab
-    pkgs.fzf
-    pkgs.ripgrep
-    pkgs.vscode
-    pkgs.lazygit
-    pkgs.jq
-    pkgs.yq
-    pkgs.neovim
-    pkgs.neofetch
-    pkgs.btop
-    pkgs.cheat
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
   fonts.fontconfig.enable = true; 
