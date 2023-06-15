@@ -34,6 +34,7 @@
     pkgs.rclone
     pkgs.act
     pkgs.cosign
+    pkgs.neovim
     # Fleek Bling
     pkgs.git
     pkgs.htop

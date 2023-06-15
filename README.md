@@ -22,3 +22,7 @@ Your actual aliases are listed below:
     du = "dust";
 
     fleeks = "cd ~/.local/share/fleek";
+
+    mpv = "flatpak run --command=mpv io.mpv.Mpv";
+
+    yt-dlp = "flatpak run --command=yt-dlp org.nickvision.tubeconverter";

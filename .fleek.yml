@@ -1,13 +1,15 @@
 aliases:
     du: dust
+    yt-dlp: flatpak run --command=yt-dlp org.nickvision.tubeconverter
+    mpv: flatpak run --command=mpv io.mpv.Mpv
     fleeks: cd ~/.local/share/fleek
 bling: low
 ejected: false
 flakedir: .local/share/fleek
 git:
-    autocommit: true
+    autocommit: false
     autopull: true
-    autopush: true
+    autopush: false
     enabled: true
 min_version: 0.8.4
 name: Fleek Configuration
@@ -28,7 +30,9 @@ packages:
     - rclone
     - act
     - cosign
+    - neovim
 paths:
+    - $HOME/go/bin
     - $HOME/bin
     - $HOME/.local/bin
 programs:
