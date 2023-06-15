@@ -31,7 +31,6 @@ packages:
     - cosign
     - flutter-unwrapped
     - flutterPackages.stable
-    - dotnet-sdk_7
 paths:
     - $HOME/bin
     - $HOME/.local/bin

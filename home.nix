@@ -37,7 +37,6 @@
     pkgs.cosign
     pkgs.flutter-unwrapped
     pkgs.flutterPackages.stable
-    pkgs.dotnet-sdk_7
     # Fleek Bling
     pkgs.git
     pkgs.htop
