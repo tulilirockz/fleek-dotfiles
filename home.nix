@@ -30,7 +30,6 @@
     pkgs.stow
     pkgs.du-dust
     pkgs.gallery-dl
-    pkgs.shellcheck
     pkgs.rclone
     pkgs.act
     pkgs.cosign

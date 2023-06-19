@@ -1,8 +1,8 @@
 aliases:
     du: dust
-    yt-dlp: flatpak run --command=yt-dlp org.nickvision.tubeconverter
-    mpv: flatpak run --command=mpv io.mpv.Mpv
     fleeks: cd ~/.local/share/fleek
+    mpv: flatpak run --command=mpv io.mpv.Mpv
+    yt-dlp: flatpak run --command=yt-dlp org.nickvision.tubeconverter
 bling: low
 ejected: false
 flakedir: .local/share/fleek
@@ -26,7 +26,6 @@ packages:
     - stow
     - du-dust
     - gallery-dl
-    - shellcheck
     - rclone
     - act
     - cosign
