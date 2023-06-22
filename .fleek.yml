@@ -30,6 +30,7 @@ packages:
     - act
     - cosign
     - neovim
+    - vscodium
 paths:
     - $HOME/go/bin
     - $HOME/bin
@@ -42,10 +43,14 @@ systems:
       hostname: posi
       os: linux
       username: tulili
+    - arch: x86_64
+      hostname: tower
+      os: linux
+      username: lilith
 unfree: true
 users:
     - email: tulilirockz.pub+git@gmail.com
-      name: Tulili
+      name: Lilith
       ssh_private_key_file: ~/.ssh/git
       ssh_public_key_file: ~/.ssh/git.pub
-      username: tulili
+      username: lilith

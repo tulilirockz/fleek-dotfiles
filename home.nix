@@ -34,6 +34,7 @@
     pkgs.act
     pkgs.cosign
     pkgs.neovim
+    pkgs.vscodium
     # Fleek Bling
     pkgs.git
     pkgs.htop
