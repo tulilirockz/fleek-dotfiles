@@ -30,7 +30,7 @@ packages:
     - act
     - cosign
     - neovim
-    - vscodium
+    - vscode
 paths:
     - $HOME/go/bin
     - $HOME/bin
@@ -50,7 +50,12 @@ systems:
 unfree: true
 users:
     - email: tulilirockz.pub+git@gmail.com
-      name: Lilith
+      name: tulili
+      ssh_private_key_file: ~/.ssh/git
+      ssh_public_key_file: ~/.ssh/git.pub
+      username: tulili
+    - email: tulilirockz.pub+git@gmail.com
+      name: lili
       ssh_private_key_file: ~/.ssh/git
       ssh_public_key_file: ~/.ssh/git.pub
       username: lilith
