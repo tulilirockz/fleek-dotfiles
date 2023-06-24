@@ -1,5 +1,9 @@
 aliases:
     du: dust
+    ls: exa
+    cat: bat
+    lg: lazygit
+    tmux: zellij
     fleeks: cd ~/.local/share/fleek
     mpv: flatpak run --command=mpv io.mpv.Mpv
     yt-dlp: flatpak run --command=yt-dlp org.nickvision.tubeconverter
@@ -34,7 +38,6 @@ packages:
     - neovim
     - vscode
     - go
-    - lld
     - binutils_nogold
     - asciinema
 paths:
