@@ -9,9 +9,9 @@ byo_git: false
 ejected: false
 flakedir: .local/share/fleek
 git:
-    autocommit: false
+    autocommit: true
     autopull: true
-    autopush: false
+    autopush: true
     enabled: true
 min_version: 0.8.4
 name: Fleek Configuration
@@ -33,6 +33,7 @@ packages:
     - cosign
     - neovim
     - vscode
+    - go
 paths:
     - $HOME/go/bin
     - $HOME/bin
