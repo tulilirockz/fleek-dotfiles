@@ -36,6 +36,7 @@ packages:
     - go
     - lld
     - binutils_nogold
+    - asciinema
 paths:
     - $HOME/go/bin
     - $HOME/bin
