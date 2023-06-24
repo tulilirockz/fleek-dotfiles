@@ -35,6 +35,7 @@ packages:
     - vscode
     - go
     - lld
+    - binutils_nogold
 paths:
     - $HOME/go/bin
     - $HOME/bin

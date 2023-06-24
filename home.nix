@@ -37,6 +37,7 @@
     pkgs.vscode
     pkgs.go
     pkgs.lld
+    pkgs.binutils_nogold
     # Fleek Bling
     pkgs.git
     pkgs.htop
