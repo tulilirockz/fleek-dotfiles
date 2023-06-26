@@ -19,10 +19,18 @@ $ apply-$(hostname)
 ```
 
 Your actual aliases are listed below:
+    cat = "bat";
+
     du = "dust";
 
     fleeks = "cd ~/.local/share/fleek";
 
+    lg = "lazygit";
+
+    ls = "exa";
+
     mpv = "flatpak run --command=mpv io.mpv.Mpv";
+
+    tmux = "zellij";
 
     yt-dlp = "flatpak run --command=yt-dlp org.nickvision.tubeconverter";

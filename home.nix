@@ -34,9 +34,7 @@
     pkgs.act
     pkgs.cosign
     pkgs.neovim
-    pkgs.vscode
     pkgs.go
-    pkgs.lld
     pkgs.binutils_nogold
     pkgs.asciinema
     # Fleek Bling
@@ -44,6 +42,16 @@
     pkgs.htop
     pkgs.github-cli
     pkgs.glab
+    pkgs.fzf
+    pkgs.ripgrep
+    pkgs.vscode
+    pkgs.lazygit
+    pkgs.jq
+    pkgs.yq
+    pkgs.neovim
+    pkgs.neofetch
+    pkgs.btop
+    pkgs.cheat
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
   fonts.fontconfig.enable = true; 

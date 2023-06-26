@@ -9,7 +9,7 @@
             graph = "log --decorate --oneline --graph";
             add-nowhitespace = "!git diff -U0 -w --no-color | git apply --cached --ignore-whitespace --unidiff-zero -";
         };
-        userName = "Lilith";
+        userName = "lili";
         userEmail = "tulilirockz.pub+git@gmail.com";
         extraConfig = {
             feature.manyFiles = true;
