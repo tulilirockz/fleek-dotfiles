@@ -1,15 +1,9 @@
 { pkgs, misc, ... }: {
   # DO NOT EDIT: This file is managed by fleek. Manual changes will be overwritten.
    home.shellAliases = {
-    "cat" = "bat";
-    
-    "du" = "dust";
-    
     "fleeks" = "cd ~/.local/share/fleek";
     
     "lg" = "lazygit";
-    
-    "ls" = "exa";
     
     "mpv" = "flatpak run --command=mpv io.mpv.Mpv";
     

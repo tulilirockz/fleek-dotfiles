@@ -1,7 +1,4 @@
 aliases:
-    du: dust
-    ls: exa
-    cat: bat
     lg: lazygit
     tmux: zellij
     fleeks: cd ~/.local/share/fleek
