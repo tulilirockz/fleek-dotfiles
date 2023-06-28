@@ -36,7 +36,7 @@ packages:
     - go
     - binutils_nogold
     - asciinema
-    - lm_sensors
+    - lf
 paths:
     - $HOME/go/bin
     - $HOME/bin

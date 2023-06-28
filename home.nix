@@ -37,7 +37,7 @@
     pkgs.go
     pkgs.binutils_nogold
     pkgs.asciinema
-    pkgs.lm_sensors
+    pkgs.lf
     # Fleek Bling
     pkgs.git
     pkgs.htop
