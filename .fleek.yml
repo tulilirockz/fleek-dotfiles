@@ -1,8 +1,8 @@
 aliases:
-    lg: lazygit
-    tmux: zellij
     fleeks: cd ~/.local/share/fleek
+    lg: lazygit
     mpv: flatpak run --command=mpv io.mpv.Mpv
+    tmux: zellij
     yt-dlp: flatpak run --command=yt-dlp org.nickvision.tubeconverter
 bling: high
 blocklist: []
@@ -36,6 +36,7 @@ packages:
     - go
     - binutils_nogold
     - asciinema
+    - lm_sensors
 paths:
     - $HOME/go/bin
     - $HOME/bin
