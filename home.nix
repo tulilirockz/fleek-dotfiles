@@ -38,6 +38,7 @@
     pkgs.binutils_nogold
     pkgs.asciinema
     pkgs.lf
+    pkgs.dive
     # Fleek Bling
     pkgs.git
     pkgs.htop

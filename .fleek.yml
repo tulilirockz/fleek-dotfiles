@@ -37,6 +37,7 @@ packages:
     - binutils_nogold
     - asciinema
     - lf
+    - dive
 paths:
     - $HOME/go/bin
     - $HOME/bin
