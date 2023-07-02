@@ -53,7 +53,7 @@ systems:
     - arch: x86_64
       hostname: tower
       os: linux
-      username: lilith
+      username: tulili
 track: ""
 unfree: true
 users:
@@ -61,14 +61,4 @@ users:
       name: tulili
       ssh_private_key_file: ~/.ssh/git
       ssh_public_key_file: ~/.ssh/git.pub
-      username: tulili
-    - email: tulilirockz.pub+git@gmail.com
-      name: lili
-      ssh_private_key_file: ~/.ssh/git
-      ssh_public_key_file: ~/.ssh/git.pub
-      username: lilith
-    - email: tulilirockz.pub+git@gmail.com
-      name: Tulili
-      ssh_private_key_file: ~/.ssh/id_ed25519
-      ssh_public_key_file: ~/.ssh/id_ed25519.pub
       username: tulili

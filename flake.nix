@@ -45,7 +45,7 @@
         ];
       };
       
-      "lilith@tower" = home-manager.lib.homeManagerConfiguration {
+      "tulili@tower" = home-manager.lib.homeManagerConfiguration {
         pkgs = nixpkgs.legacyPackages.x86_64-linux; # Home-manager requires 'pkgs' instance
         extraSpecialArgs = { inherit inputs; }; # Pass flake inputs to our config
         modules = [
@@ -56,7 +56,7 @@
           ./aliases.nix
           ./programs.nix
           # Host Specific configs
-          ./tower/lilith.nix
+          ./tower/tulili.nix
           ./tower/custom.nix
           # self-manage fleek
           ({
