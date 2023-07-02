@@ -39,6 +39,7 @@
     pkgs.asciinema
     pkgs.lf
     pkgs.dive
+    pkgs.meson
     # Fleek Bling
     pkgs.git
     pkgs.htop

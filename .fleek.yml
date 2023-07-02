@@ -38,6 +38,7 @@ packages:
     - asciinema
     - lf
     - dive
+    - meson
 paths:
     - $HOME/go/bin
     - $HOME/bin
