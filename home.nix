@@ -41,6 +41,7 @@
     pkgs.dive
     pkgs.meson
     pkgs.go-task
+    pkgs.lm_sensors
     # Fleek Bling
     pkgs.git
     pkgs.htop
