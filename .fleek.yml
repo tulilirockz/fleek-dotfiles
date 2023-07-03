@@ -39,6 +39,7 @@ packages:
     - lf
     - dive
     - meson
+    - go-task
 paths:
     - $HOME/go/bin
     - $HOME/bin

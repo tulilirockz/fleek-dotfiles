@@ -40,6 +40,7 @@
     pkgs.lf
     pkgs.dive
     pkgs.meson
+    pkgs.go-task
     # Fleek Bling
     pkgs.git
     pkgs.htop
