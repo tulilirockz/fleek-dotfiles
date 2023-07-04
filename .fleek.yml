@@ -41,6 +41,7 @@ packages:
     - meson
     - go-task
     - lm_sensors
+    - slides
 paths:
     - $HOME/go/bin
     - $HOME/bin
