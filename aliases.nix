@@ -5,10 +5,6 @@
     
     "lg" = "lazygit";
     
-    "mpv" = "flatpak run --command=mpv io.mpv.Mpv";
-    
-    "tmux" = "zellij";
-    
     "yt-dlp" = "flatpak run --command=yt-dlp org.nickvision.tubeconverter";
     
     # bat --plain for unformatted cat

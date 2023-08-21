@@ -1,12 +1,11 @@
 aliases:
     fleeks: cd ~/.local/share/fleek
     lg: lazygit
-    mpv: flatpak run --command=mpv io.mpv.Mpv
-    tmux: zellij
     yt-dlp: flatpak run --command=yt-dlp org.nickvision.tubeconverter
 allow_broken: false
 bling: high
-blocklist: []
+blocklist:
+  - vscode
 byo_git: false
 ejected: false
 flakedir: .local/share/fleek
