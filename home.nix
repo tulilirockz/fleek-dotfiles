@@ -14,30 +14,11 @@
   };
 
   
-  # managed by fleek, modify ~/.fleek.yml to change installed packages
-  
   # packages are just installed (no configuration applied)
   # programs are installed and configuration applied to dotfiles
   home.packages = [
     # user selected packages
-    pkgs.exa
-    pkgs.bat
-    pkgs.gitui
-    pkgs.devbox
-    pkgs.gh
-    pkgs.zellij
-    pkgs.mprocs
-    pkgs.du-dust
-    pkgs.gallery-dl
-    pkgs.rclone
-    pkgs.act
-    pkgs.cosign
-    pkgs.neovim
-    pkgs.asciinema
-    pkgs.lf
-    pkgs.dive
-    pkgs.go-task
-    pkgs.lm_sensors
+    pkgs.helix
     # Fleek Bling
     pkgs.git
     pkgs.htop
@@ -45,13 +26,6 @@
     pkgs.glab
     pkgs.fzf
     pkgs.ripgrep
-    pkgs.lazygit
-    pkgs.jq
-    pkgs.yq
-    pkgs.neovim
-    pkgs.neofetch
-    pkgs.btop
-    pkgs.cheat
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
   fonts.fontconfig.enable = true; 

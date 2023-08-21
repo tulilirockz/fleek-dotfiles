@@ -19,8 +19,6 @@ $ apply-$(hostname)
 ```
 
 Your actual aliases are listed below:
-    fleeks = "cd ~/.local/share/fleek";
+    apply-tower = "nix run --impure home-manager/master -- -b bak switch --flake .#tulili@tower";
 
-    lg = "lazygit";
-
-    yt-dlp = "flatpak run --command=yt-dlp org.nickvision.tubeconverter";
+    fleeks = "cd ~/.config/fleek";
