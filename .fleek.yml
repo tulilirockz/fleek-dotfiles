@@ -4,6 +4,7 @@ aliases:
     mpv: flatpak run --command=mpv io.mpv.Mpv
     tmux: zellij
     yt-dlp: flatpak run --command=yt-dlp org.nickvision.tubeconverter
+allow_broken: false
 bling: high
 blocklist: []
 byo_git: false
@@ -51,10 +52,12 @@ programs:
 shell: bash
 systems:
     - arch: x86_64
+      home: ""
       hostname: posi
       os: linux
       username: tulili
     - arch: x86_64
+      home: ""
       hostname: tower
       os: linux
       username: tulili
