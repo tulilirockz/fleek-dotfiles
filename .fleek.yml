@@ -21,28 +21,22 @@ overlays: {}
 packages:
     - exa
     - bat
-    - lazygit
+    - gitui
     - devbox
     - gh
-    - syncthing
     - zellij
     - mprocs
-    - stow
     - du-dust
     - gallery-dl
     - rclone
     - act
     - cosign
     - neovim
-    - go
-    - binutils_nogold
     - asciinema
     - lf
     - dive
-    - meson
     - go-task
     - lm_sensors
-    - slides
 paths:
     - $HOME/go/bin
     - $HOME/bin

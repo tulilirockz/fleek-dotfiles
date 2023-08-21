@@ -22,28 +22,22 @@
     # user selected packages
     pkgs.exa
     pkgs.bat
-    pkgs.lazygit
+    pkgs.gitui
     pkgs.devbox
     pkgs.gh
-    pkgs.syncthing
     pkgs.zellij
     pkgs.mprocs
-    pkgs.stow
     pkgs.du-dust
     pkgs.gallery-dl
     pkgs.rclone
     pkgs.act
     pkgs.cosign
     pkgs.neovim
-    pkgs.go
-    pkgs.binutils_nogold
     pkgs.asciinema
     pkgs.lf
     pkgs.dive
-    pkgs.meson
     pkgs.go-task
     pkgs.lm_sensors
-    pkgs.slides
     # Fleek Bling
     pkgs.git
     pkgs.htop
