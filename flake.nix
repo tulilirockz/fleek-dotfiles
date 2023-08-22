@@ -24,6 +24,27 @@
     
     homeConfigurations = {
     
+      "tulili@posi" = home-manager.lib.homeManagerConfiguration {
+        pkgs = nixpkgs.legacyPackages.x86_64-linux; # Home-manager requires 'pkgs' instance
+        extraSpecialArgs = { inherit inputs; }; # Pass flake inputs to our config
+        modules = [
+          ./home.nix 
+          ./path.nix
+          ./shell.nix
+          ./user.nix
+          ./aliases.nix
+          ./programs.nix
+          # Host Specific configs
+          ./posi/tulili.nix
+          ./posi/custom.nix
+          # self-manage fleek
+          ({
+           nixpkgs.overlays = [];
+          })
+
+        ];
+      };
+      
       "tulili@tower" = home-manager.lib.homeManagerConfiguration {
         pkgs = nixpkgs.legacyPackages.x86_64-linux; # Home-manager requires 'pkgs' instance
         extraSpecialArgs = { inherit inputs; }; # Pass flake inputs to our config
